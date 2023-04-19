@@ -7,7 +7,7 @@ version = "~> 4.0"
 }
 }
 variable "accesskey" {}
-variable "secretaccesskey" {}
+variable "Secretaccesskey" {}
 provider "aws" {
 region= "us-east-1"
 access_key = var.accesskey
